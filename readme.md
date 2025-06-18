@@ -1,6 +1,8 @@
-# EPA GLIMPSE Project
+# MPCA GLIMPSE Project
 
 ## Overview
+
+This project has been cloned from the EPA GLIMPSE Project
 
 GLIMPSE (GCAM Long-term Interactive Multi-Pollutant Scenario Evaluator; https://epa.gov/glimpse) is a graphical user interface for GCAM (Global Change Analysis Model; https://github.com/JGCRI/gcam-core), and open-source human-Earth systems model. GCAM is not itself an EPA product. GCAM development is organized by the Joint Global Change Research Institute (JGCRI; https://www.pnnl.gov/jgcri).  
 
@@ -51,7 +53,9 @@ For EPA Teams, we have guidance on how EPA puts our open source software policie
 
 ### Credits
 
-This repository reused material from [GSA](https://www.gsa.gov/), [18F](https://18f.gsa.gov/) , [Lawrence Livermore National Lab](https://www.llnl.gov/), and from the [Consumer Financial Protection Bureau's policy](https://github.com/cfpb/source-code-policy).
+This cloned repository reused material from the EPA GLIMPSE Project, [GSA](https://www.gsa.gov/), [18F](https://18f.gsa.gov/) , [Lawrence Livermore National Lab](https://www.llnl.gov/), and from the [Consumer Financial Protection Bureau's policy](https://github.com/cfpb/source-code-policy).
+
+
 
 ### Disclaimer
 
