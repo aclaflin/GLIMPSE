@@ -1,0 +1,998 @@
+########## Scenario Component Metadata ##########
+#Scenario component type: Pollutant Tax/Cap
+#Measure: Emission Cap (Mt)
+#Pollutant: CO2 (MT C)
+#Sector: Industry-All
+#Policy name: Cap_Industry-All_CO2_MN1753295989927
+#Market name: Cap_Industry-All_CO2_MN_Mkt1753295989927
+#Regions: MN
+#Table data:2030    , 40
+#Table data:2040    , 22
+#Table data:2047    , 12
+#Table data:2057    , 2
+#################################################
+INPUT_TABLE
+Variable ID
+GLIMPSEEmissionCap
+
+region,pollutant,market,year,cap
+MN,Cap_Industry-All_CO2_MN_Mkt1753295989927,Cap_Industry-All_CO2_MN_Mkt1753295989927,2030,40
+MN,Cap_Industry-All_CO2_MN_Mkt1753295989927,Cap_Industry-All_CO2_MN_Mkt1753295989927,2040,22
+MN,Cap_Industry-All_CO2_MN_Mkt1753295989927,Cap_Industry-All_CO2_MN_Mkt1753295989927,2047,12
+MN,Cap_Industry-All_CO2_MN_Mkt1753295989927,Cap_Industry-All_CO2_MN_Mkt1753295989927,2057,2
+
+INPUT_TABLE
+Variable ID
+GLIMPSEAddCO2Subspecies
+
+region,supplysector,subsector,technology,year,pollutant
+MN,other industrial energy use,biomass,biomass,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,biomass,biomass,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,biomass,biomass,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,biomass,biomass,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,biomass,biomass,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,biomass,biomass,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,biomass,biomass,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,biomass,biomass,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,biomass,biomass,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,biomass,biomass,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,biomass,biomass cogen,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,biomass,biomass cogen,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,biomass,biomass cogen,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,biomass,biomass cogen,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,biomass,biomass cogen,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,biomass,biomass cogen,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,biomass,biomass cogen,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,biomass,biomass cogen,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,biomass,biomass cogen,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,biomass,biomass cogen,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,coal,coal,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,coal,coal,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,coal,coal,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,coal,coal,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,coal,coal,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,coal,coal,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,coal,coal,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,coal,coal,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,coal,coal,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,coal,coal,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,coal,coal cogen,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,coal,coal cogen,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,coal,coal cogen,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,coal,coal cogen,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,coal,coal cogen,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,coal,coal cogen,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,coal,coal cogen,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,coal,coal cogen,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,coal,coal cogen,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,coal,coal cogen,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,district heat,district heat,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,district heat,district heat,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,district heat,district heat,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,district heat,district heat,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,district heat,district heat,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,district heat,district heat,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,district heat,district heat,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,district heat,district heat,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,district heat,district heat,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,district heat,district heat,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,electricity,electricity,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,electricity,electricity,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,electricity,electricity,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,electricity,electricity,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,electricity,electricity,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,electricity,electricity,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,electricity,electricity,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,electricity,electricity,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,electricity,electricity,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,electricity,electricity,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,gas,gas,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,gas,gas,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,gas,gas,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,gas,gas,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,gas,gas,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,gas,gas,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,gas,gas,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,gas,gas,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,gas,gas,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,gas,gas,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,gas,gas cogen,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,gas,gas cogen,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,gas,gas cogen,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,gas,gas cogen,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,gas,gas cogen,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,gas,gas cogen,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,gas,gas cogen,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,gas,gas cogen,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,gas,gas cogen,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,gas,gas cogen,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,hydrogen,hydrogen,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,hydrogen,hydrogen,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,hydrogen,hydrogen,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,hydrogen,hydrogen,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,hydrogen,hydrogen,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,hydrogen,hydrogen,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,hydrogen,hydrogen,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,hydrogen,hydrogen,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,hydrogen,hydrogen,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,hydrogen,hydrogen,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,hydrogen,hydrogen cogen,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,hydrogen,hydrogen cogen,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,hydrogen,hydrogen cogen,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,hydrogen,hydrogen cogen,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,hydrogen,hydrogen cogen,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,hydrogen,hydrogen cogen,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,hydrogen,hydrogen cogen,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,hydrogen,hydrogen cogen,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,hydrogen,hydrogen cogen,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,hydrogen,hydrogen cogen,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,refined liquids,refined liquids,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,refined liquids,refined liquids,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,refined liquids,refined liquids,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,refined liquids,refined liquids,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,refined liquids,refined liquids,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,refined liquids,refined liquids,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,refined liquids,refined liquids,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,refined liquids,refined liquids,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,refined liquids,refined liquids,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,refined liquids,refined liquids,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,refined liquids,refined liquids cogen,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,refined liquids,refined liquids cogen,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,refined liquids,refined liquids cogen,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,refined liquids,refined liquids cogen,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,refined liquids,refined liquids cogen,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,refined liquids,refined liquids cogen,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,refined liquids,refined liquids cogen,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,refined liquids,refined liquids cogen,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,refined liquids,refined liquids cogen,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial energy use,refined liquids,refined liquids cogen,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial feedstocks,coal,coal,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial feedstocks,coal,coal,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial feedstocks,coal,coal,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial feedstocks,coal,coal,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial feedstocks,coal,coal,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial feedstocks,coal,coal,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial feedstocks,coal,coal,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial feedstocks,coal,coal,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial feedstocks,coal,coal,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial feedstocks,coal,coal,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial feedstocks,gas,gas,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial feedstocks,gas,gas,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial feedstocks,gas,gas,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial feedstocks,gas,gas,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial feedstocks,gas,gas,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial feedstocks,gas,gas,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial feedstocks,gas,gas,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial feedstocks,gas,gas,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial feedstocks,gas,gas,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial feedstocks,gas,gas,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial feedstocks,refined liquids,refined liquids,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial feedstocks,refined liquids,refined liquids,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial feedstocks,refined liquids,refined liquids,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial feedstocks,refined liquids,refined liquids,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial feedstocks,refined liquids,refined liquids,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial feedstocks,refined liquids,refined liquids,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial feedstocks,refined liquids,refined liquids,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial feedstocks,refined liquids,refined liquids,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial feedstocks,refined liquids,refined liquids,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industrial feedstocks,refined liquids,refined liquids,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,cement,cement,cement,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,cement,cement,cement,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,cement,cement,cement,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,cement,cement,cement,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,cement,cement,cement,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,cement,cement,cement,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,cement,cement,cement,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,cement,cement,cement,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,cement,cement,cement,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,cement,cement,cement,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,cement,cement,cement,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,cement,cement,cement,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,cement,cement,cement,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,cement,cement,cement,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,cement,cement,cement,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,cement,cement,cement,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,cement,cement,cement,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,cement,cement,cement,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,cement,cement,cement,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,cement,cement,cement,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,cement,cement,cement,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,cement,cement,cement,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,cement,cement,cement,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,cement,cement,cement,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,cement,cement,cement,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,cement,cement,cement,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,cement,cement,cement,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,cement,cement,cement,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,cement,cement,cement,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,cement,cement,cement,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,cement,cement,cement CCS,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,cement,cement,cement CCS,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,cement,cement,cement CCS,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,cement,cement,cement CCS,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,cement,cement,cement CCS,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,cement,cement,cement CCS,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,cement,cement,cement CCS,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,cement,cement,cement CCS,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,cement,cement,cement CCS,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,cement,cement,cement CCS,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,cement,cement,cement CCS,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,cement,cement,cement CCS,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,cement,cement,cement CCS,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,cement,cement,cement CCS,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,cement,cement,cement CCS,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,cement,cement,cement CCS,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,cement,cement,cement CCS,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,cement,cement,cement CCS,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,cement,cement,cement CCS,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,cement,cement,cement CCS,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,cement,cement,cement CCS,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,cement,cement,cement CCS,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,cement,cement,cement CCS,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,cement,cement,cement CCS,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,cement,cement,cement CCS,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,cement,cement,cement CCS,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,cement,cement,cement CCS,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,cement,cement,cement CCS,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,cement,cement,cement CCS,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,cement,cement,cement CCS,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,process heat cement,biomass,biomass,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,process heat cement,biomass,biomass,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,process heat cement,biomass,biomass,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,process heat cement,biomass,biomass,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,process heat cement,biomass,biomass,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,process heat cement,biomass,biomass,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,process heat cement,biomass,biomass,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,process heat cement,biomass,biomass,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,process heat cement,biomass,biomass,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,process heat cement,biomass,biomass,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,process heat cement,coal,coal,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,process heat cement,coal,coal,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,process heat cement,coal,coal,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,process heat cement,coal,coal,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,process heat cement,coal,coal,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,process heat cement,coal,coal,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,process heat cement,coal,coal,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,process heat cement,coal,coal,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,process heat cement,coal,coal,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,process heat cement,coal,coal,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,process heat cement,gas,gas,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,process heat cement,gas,gas,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,process heat cement,gas,gas,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,process heat cement,gas,gas,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,process heat cement,gas,gas,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,process heat cement,gas,gas,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,process heat cement,gas,gas,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,process heat cement,gas,gas,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,process heat cement,gas,gas,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,process heat cement,gas,gas,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,process heat cement,refined liquids,refined liquids,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,process heat cement,refined liquids,refined liquids,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,process heat cement,refined liquids,refined liquids,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,process heat cement,refined liquids,refined liquids,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,process heat cement,refined liquids,refined liquids,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,process heat cement,refined liquids,refined liquids,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,process heat cement,refined liquids,refined liquids,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,process heat cement,refined liquids,refined liquids,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,process heat cement,refined liquids,refined liquids,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,process heat cement,refined liquids,refined liquids,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,process heat cement,hydrogen,hydrogen,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,process heat cement,hydrogen,hydrogen,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,process heat cement,hydrogen,hydrogen,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,process heat cement,hydrogen,hydrogen,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,process heat cement,hydrogen,hydrogen,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,process heat cement,hydrogen,hydrogen,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,process heat cement,hydrogen,hydrogen,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,process heat cement,hydrogen,hydrogen,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,process heat cement,hydrogen,hydrogen,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,process heat cement,hydrogen,hydrogen,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industry,other industry,other industry,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industry,other industry,other industry,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industry,other industry,other industry,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industry,other industry,other industry,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industry,other industry,other industry,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industry,other industry,other industry,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industry,other industry,other industry,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industry,other industry,other industry,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industry,other industry,other industry,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industry,other industry,other industry,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industry,other industry,other industry,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industry,other industry,other industry,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industry,other industry,other industry,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industry,other industry,other industry,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industry,other industry,other industry,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industry,other industry,other industry,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industry,other industry,other industry,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industry,other industry,other industry,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industry,other industry,other industry,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industry,other industry,other industry,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industry,other industry,other industry,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industry,other industry,other industry,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industry,other industry,other industry,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industry,other industry,other industry,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industry,other industry,other industry,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industry,other industry,other industry,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industry,other industry,other industry,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industry,other industry,other industry,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industry,other industry,other industry,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,other industry,other industry,other industry,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,BTL with hydrogen,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,BTL with hydrogen,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,BTL with hydrogen,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,BTL with hydrogen,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,BTL with hydrogen,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,BTL with hydrogen,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,BTL with hydrogen,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,BTL with hydrogen,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,BTL with hydrogen,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,BTL with hydrogen,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,biodiesel,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,biodiesel,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,biodiesel,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,biodiesel,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,biodiesel,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,biodiesel,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,biodiesel,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,biodiesel,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,biodiesel,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,biodiesel,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,cellulosic ethanol,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,cellulosic ethanol,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,cellulosic ethanol,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,cellulosic ethanol,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,cellulosic ethanol,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,cellulosic ethanol,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,cellulosic ethanol,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,cellulosic ethanol,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,cellulosic ethanol,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,cellulosic ethanol,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,cellulosic ethanol CCS level 1,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,cellulosic ethanol CCS level 1,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,cellulosic ethanol CCS level 1,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,cellulosic ethanol CCS level 1,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,cellulosic ethanol CCS level 1,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,cellulosic ethanol CCS level 1,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,cellulosic ethanol CCS level 1,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,cellulosic ethanol CCS level 1,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,cellulosic ethanol CCS level 1,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,cellulosic ethanol CCS level 1,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,cellulosic ethanol CCS level 2,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,cellulosic ethanol CCS level 2,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,cellulosic ethanol CCS level 2,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,cellulosic ethanol CCS level 2,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,cellulosic ethanol CCS level 2,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,cellulosic ethanol CCS level 2,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,cellulosic ethanol CCS level 2,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,cellulosic ethanol CCS level 2,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,cellulosic ethanol CCS level 2,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,cellulosic ethanol CCS level 2,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,corn ethanol,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,corn ethanol,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,corn ethanol,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,corn ethanol,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,corn ethanol,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,corn ethanol,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,corn ethanol,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,corn ethanol,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,corn ethanol,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,corn ethanol,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,FT biofuels,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,FT biofuels,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,FT biofuels,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,FT biofuels,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,FT biofuels,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,FT biofuels,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,FT biofuels,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,FT biofuels,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,FT biofuels,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,FT biofuels,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,FT biofuels CCS level 1,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,FT biofuels CCS level 1,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,FT biofuels CCS level 1,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,FT biofuels CCS level 1,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,FT biofuels CCS level 1,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,FT biofuels CCS level 1,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,FT biofuels CCS level 1,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,FT biofuels CCS level 1,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,FT biofuels CCS level 1,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,FT biofuels CCS level 1,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,FT biofuels CCS level 2,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,FT biofuels CCS level 2,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,FT biofuels CCS level 2,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,FT biofuels CCS level 2,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,FT biofuels CCS level 2,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,FT biofuels CCS level 2,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,FT biofuels CCS level 2,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,FT biofuels CCS level 2,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,FT biofuels CCS level 2,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,biomass liquids,biomass liquids,FT biofuels CCS level 2,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,coal to liquids,coal to liquids,coal to liquids CCS level 1,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,coal to liquids,coal to liquids,coal to liquids CCS level 1,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,coal to liquids,coal to liquids,coal to liquids CCS level 1,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,coal to liquids,coal to liquids,coal to liquids CCS level 1,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,coal to liquids,coal to liquids,coal to liquids CCS level 1,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,coal to liquids,coal to liquids,coal to liquids CCS level 1,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,coal to liquids,coal to liquids,coal to liquids CCS level 1,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,coal to liquids,coal to liquids,coal to liquids CCS level 1,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,coal to liquids,coal to liquids,coal to liquids CCS level 1,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,coal to liquids,coal to liquids,coal to liquids CCS level 1,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,coal to liquids,coal to liquids,coal to liquids CCS level 2,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,coal to liquids,coal to liquids,coal to liquids CCS level 2,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,coal to liquids,coal to liquids,coal to liquids CCS level 2,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,coal to liquids,coal to liquids,coal to liquids CCS level 2,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,coal to liquids,coal to liquids,coal to liquids CCS level 2,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,coal to liquids,coal to liquids,coal to liquids CCS level 2,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,coal to liquids,coal to liquids,coal to liquids CCS level 2,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,coal to liquids,coal to liquids,coal to liquids CCS level 2,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,coal to liquids,coal to liquids,coal to liquids CCS level 2,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,coal to liquids,coal to liquids,coal to liquids CCS level 2,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,gas pipeline,gas pipeline,gas pipeline,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,gas pipeline,gas pipeline,gas pipeline,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,gas pipeline,gas pipeline,gas pipeline,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,gas pipeline,gas pipeline,gas pipeline,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,gas pipeline,gas pipeline,gas pipeline,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,gas pipeline,gas pipeline,gas pipeline,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,gas pipeline,gas pipeline,gas pipeline,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,gas pipeline,gas pipeline,gas pipeline,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,gas pipeline,gas pipeline,gas pipeline,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,gas pipeline,gas pipeline,gas pipeline,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,gas processing,biomass gasification,biomass gasification,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,gas processing,biomass gasification,biomass gasification,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,gas processing,biomass gasification,biomass gasification,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,gas processing,biomass gasification,biomass gasification,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,gas processing,biomass gasification,biomass gasification,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,gas processing,biomass gasification,biomass gasification,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,gas processing,biomass gasification,biomass gasification,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,gas processing,biomass gasification,biomass gasification,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,gas processing,biomass gasification,biomass gasification,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,gas processing,biomass gasification,biomass gasification,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,gas processing,coal gasification,coal gasification,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,gas processing,coal gasification,coal gasification,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,gas processing,coal gasification,coal gasification,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,gas processing,coal gasification,coal gasification,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,gas processing,coal gasification,coal gasification,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,gas processing,coal gasification,coal gasification,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,gas processing,coal gasification,coal gasification,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,gas processing,coal gasification,coal gasification,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,gas processing,coal gasification,coal gasification,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,gas processing,coal gasification,coal gasification,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,gas processing,natural gas,natural gas,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,gas processing,natural gas,natural gas,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,gas processing,natural gas,natural gas,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,gas processing,natural gas,natural gas,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,gas processing,natural gas,natural gas,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,gas processing,natural gas,natural gas,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,gas processing,natural gas,natural gas,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,gas processing,natural gas,natural gas,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,gas processing,natural gas,natural gas,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,gas processing,natural gas,natural gas,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,gas to liquids,gas to liquids,gas to liquids,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,gas to liquids,gas to liquids,gas to liquids,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,gas to liquids,gas to liquids,gas to liquids,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,gas to liquids,gas to liquids,gas to liquids,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,gas to liquids,gas to liquids,gas to liquids,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,gas to liquids,gas to liquids,gas to liquids,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,gas to liquids,gas to liquids,gas to liquids,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,gas to liquids,gas to liquids,gas to liquids,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,gas to liquids,gas to liquids,gas to liquids,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,gas to liquids,gas to liquids,gas to liquids,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,biomass,biomass to H2,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,biomass,biomass to H2,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,biomass,biomass to H2,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,biomass,biomass to H2,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,biomass,biomass to H2,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,biomass,biomass to H2,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,biomass,biomass to H2,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,biomass,biomass to H2,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,biomass,biomass to H2,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,biomass,biomass to H2,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,biomass,biomass to H2 CCS,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,biomass,biomass to H2 CCS,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,biomass,biomass to H2 CCS,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,biomass,biomass to H2 CCS,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,biomass,biomass to H2 CCS,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,biomass,biomass to H2 CCS,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,biomass,biomass to H2 CCS,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,biomass,biomass to H2 CCS,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,biomass,biomass to H2 CCS,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,biomass,biomass to H2 CCS,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,coal,coal chemical CCS,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,coal,coal chemical CCS,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,coal,coal chemical CCS,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,coal,coal chemical CCS,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,coal,coal chemical CCS,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,coal,coal chemical CCS,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,coal,coal chemical CCS,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,coal,coal chemical CCS,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,coal,coal chemical CCS,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,coal,coal chemical CCS,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,electricity,electrolysis,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,electricity,electrolysis,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,electricity,electrolysis,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,electricity,electrolysis,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,electricity,electrolysis,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,electricity,electrolysis,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,electricity,electrolysis,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,electricity,electrolysis,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,electricity,electrolysis,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,electricity,electrolysis,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,gas,natural gas steam reforming,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,gas,natural gas steam reforming,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,gas,natural gas steam reforming,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,gas,natural gas steam reforming,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,gas,natural gas steam reforming,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,gas,natural gas steam reforming,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,gas,natural gas steam reforming,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,gas,natural gas steam reforming,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,gas,natural gas steam reforming,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,gas,natural gas steam reforming,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,gas,natural gas steam reforming CCS,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,gas,natural gas steam reforming CCS,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,gas,natural gas steam reforming CCS,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,gas,natural gas steam reforming CCS,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,gas,natural gas steam reforming CCS,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,gas,natural gas steam reforming CCS,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,gas,natural gas steam reforming CCS,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,gas,natural gas steam reforming CCS,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,gas,natural gas steam reforming CCS,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,gas,natural gas steam reforming CCS,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,nuclear,thermal splitting,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,nuclear,thermal splitting,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,nuclear,thermal splitting,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,nuclear,thermal splitting,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,nuclear,thermal splitting,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,nuclear,thermal splitting,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,nuclear,thermal splitting,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,nuclear,thermal splitting,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,nuclear,thermal splitting,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,nuclear,thermal splitting,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,solar,electrolysis,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,solar,electrolysis,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,solar,electrolysis,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,solar,electrolysis,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,solar,electrolysis,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,solar,electrolysis,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,solar,electrolysis,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,solar,electrolysis,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,solar,electrolysis,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,solar,electrolysis,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,wind,electrolysis,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,wind,electrolysis,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,wind,electrolysis,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,wind,electrolysis,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,wind,electrolysis,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,wind,electrolysis,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,wind,electrolysis,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,wind,electrolysis,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,wind,electrolysis,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 central production,wind,electrolysis,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 wholesale dispensing,H2 forecourt production,electrolysis,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 wholesale dispensing,H2 forecourt production,electrolysis,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 wholesale dispensing,H2 forecourt production,electrolysis,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 wholesale dispensing,H2 forecourt production,electrolysis,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 wholesale dispensing,H2 forecourt production,electrolysis,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 wholesale dispensing,H2 forecourt production,electrolysis,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 wholesale dispensing,H2 forecourt production,electrolysis,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 wholesale dispensing,H2 forecourt production,electrolysis,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 wholesale dispensing,H2 forecourt production,electrolysis,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 wholesale dispensing,H2 forecourt production,electrolysis,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 wholesale dispensing,H2 forecourt production,natural gas steam reforming,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 wholesale dispensing,H2 forecourt production,natural gas steam reforming,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 wholesale dispensing,H2 forecourt production,natural gas steam reforming,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 wholesale dispensing,H2 forecourt production,natural gas steam reforming,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 wholesale dispensing,H2 forecourt production,natural gas steam reforming,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 wholesale dispensing,H2 forecourt production,natural gas steam reforming,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 wholesale dispensing,H2 forecourt production,natural gas steam reforming,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 wholesale dispensing,H2 forecourt production,natural gas steam reforming,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 wholesale dispensing,H2 forecourt production,natural gas steam reforming,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,H2 wholesale dispensing,H2 forecourt production,natural gas steam reforming,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,nuclearFuelGenII,enrichedUranium,enrichedUranium,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,nuclearFuelGenII,enrichedUranium,enrichedUranium,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,nuclearFuelGenII,enrichedUranium,enrichedUranium,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,nuclearFuelGenII,enrichedUranium,enrichedUranium,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,nuclearFuelGenII,enrichedUranium,enrichedUranium,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,nuclearFuelGenII,enrichedUranium,enrichedUranium,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,nuclearFuelGenII,enrichedUranium,enrichedUranium,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,nuclearFuelGenII,enrichedUranium,enrichedUranium,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,nuclearFuelGenII,enrichedUranium,enrichedUranium,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,nuclearFuelGenII,enrichedUranium,enrichedUranium,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,nuclearFuelGenIII,enrichedUranium,enrichedUranium,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,nuclearFuelGenIII,enrichedUranium,enrichedUranium,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,nuclearFuelGenIII,enrichedUranium,enrichedUranium,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,nuclearFuelGenIII,enrichedUranium,enrichedUranium,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,nuclearFuelGenIII,enrichedUranium,enrichedUranium,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,nuclearFuelGenIII,enrichedUranium,enrichedUranium,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,nuclearFuelGenIII,enrichedUranium,enrichedUranium,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,nuclearFuelGenIII,enrichedUranium,enrichedUranium,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,nuclearFuelGenIII,enrichedUranium,enrichedUranium,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,nuclearFuelGenIII,enrichedUranium,enrichedUranium,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,oil refining,oil refining,oil refining,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,oil refining,oil refining,oil refining,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,oil refining,oil refining,oil refining,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,oil refining,oil refining,oil refining,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,oil refining,oil refining,oil refining,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,oil refining,oil refining,oil refining,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,oil refining,oil refining,oil refining,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,oil refining,oil refining,oil refining,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,oil refining,oil refining,oil refining,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,oil refining,oil refining,oil refining,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,BTL with hydrogen,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,BTL with hydrogen,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,BTL with hydrogen,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,BTL with hydrogen,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,BTL with hydrogen,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,BTL with hydrogen,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,BTL with hydrogen,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,BTL with hydrogen,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,BTL with hydrogen,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,BTL with hydrogen,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,biodiesel,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,biodiesel,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,biodiesel,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,biodiesel,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,biodiesel,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,biodiesel,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,biodiesel,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,biodiesel,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,biodiesel,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,biodiesel,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,cellulosic ethanol,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,cellulosic ethanol,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,cellulosic ethanol,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,cellulosic ethanol,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,cellulosic ethanol,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,cellulosic ethanol,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,cellulosic ethanol,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,cellulosic ethanol,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,cellulosic ethanol,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,cellulosic ethanol,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,cellulosic ethanol CCS level 1,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,cellulosic ethanol CCS level 1,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,cellulosic ethanol CCS level 1,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,cellulosic ethanol CCS level 1,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,cellulosic ethanol CCS level 1,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,cellulosic ethanol CCS level 1,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,cellulosic ethanol CCS level 1,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,cellulosic ethanol CCS level 1,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,cellulosic ethanol CCS level 1,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,cellulosic ethanol CCS level 1,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,cellulosic ethanol CCS level 2,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,cellulosic ethanol CCS level 2,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,cellulosic ethanol CCS level 2,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,cellulosic ethanol CCS level 2,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,cellulosic ethanol CCS level 2,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,cellulosic ethanol CCS level 2,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,cellulosic ethanol CCS level 2,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,cellulosic ethanol CCS level 2,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,cellulosic ethanol CCS level 2,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,cellulosic ethanol CCS level 2,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,corn ethanol,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,corn ethanol,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,corn ethanol,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,corn ethanol,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,corn ethanol,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,corn ethanol,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,corn ethanol,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,corn ethanol,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,corn ethanol,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,corn ethanol,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,FT biofuels,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,FT biofuels,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,FT biofuels,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,FT biofuels,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,FT biofuels,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,FT biofuels,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,FT biofuels,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,FT biofuels,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,FT biofuels,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,FT biofuels,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,FT biofuels CCS level 1,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,FT biofuels CCS level 1,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,FT biofuels CCS level 1,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,FT biofuels CCS level 1,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,FT biofuels CCS level 1,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,FT biofuels CCS level 1,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,FT biofuels CCS level 1,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,FT biofuels CCS level 1,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,FT biofuels CCS level 1,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,FT biofuels CCS level 1,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,FT biofuels CCS level 2,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,FT biofuels CCS level 2,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,FT biofuels CCS level 2,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,FT biofuels CCS level 2,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,FT biofuels CCS level 2,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,FT biofuels CCS level 2,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,FT biofuels CCS level 2,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,FT biofuels CCS level 2,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,FT biofuels CCS level 2,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,FT biofuels CCS level 2,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,sugar cane ethanol,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,sugar cane ethanol,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,sugar cane ethanol,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,sugar cane ethanol,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,sugar cane ethanol,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,sugar cane ethanol,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,sugar cane ethanol,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,sugar cane ethanol,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,sugar cane ethanol,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,biomass liquids,sugar cane ethanol,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,coal to liquids,coal to liquids,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,coal to liquids,coal to liquids,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,coal to liquids,coal to liquids,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,coal to liquids,coal to liquids,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,coal to liquids,coal to liquids,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,coal to liquids,coal to liquids,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,coal to liquids,coal to liquids,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,coal to liquids,coal to liquids,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,coal to liquids,coal to liquids,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,coal to liquids,coal to liquids,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,coal to liquids,coal to liquids CCS level 1,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,coal to liquids,coal to liquids CCS level 1,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,coal to liquids,coal to liquids CCS level 1,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,coal to liquids,coal to liquids CCS level 1,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,coal to liquids,coal to liquids CCS level 1,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,coal to liquids,coal to liquids CCS level 1,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,coal to liquids,coal to liquids CCS level 1,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,coal to liquids,coal to liquids CCS level 1,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,coal to liquids,coal to liquids CCS level 1,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,coal to liquids,coal to liquids CCS level 1,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,coal to liquids,coal to liquids CCS level 2,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,coal to liquids,coal to liquids CCS level 2,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,coal to liquids,coal to liquids CCS level 2,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,coal to liquids,coal to liquids CCS level 2,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,coal to liquids,coal to liquids CCS level 2,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,coal to liquids,coal to liquids CCS level 2,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,coal to liquids,coal to liquids CCS level 2,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,coal to liquids,coal to liquids CCS level 2,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,coal to liquids,coal to liquids CCS level 2,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,coal to liquids,coal to liquids CCS level 2,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,gas to liquids,gas to liquids,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,gas to liquids,gas to liquids,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,gas to liquids,gas to liquids,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,gas to liquids,gas to liquids,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,gas to liquids,gas to liquids,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,gas to liquids,gas to liquids,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,gas to liquids,gas to liquids,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,gas to liquids,gas to liquids,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,gas to liquids,gas to liquids,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,gas to liquids,gas to liquids,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,gas to liquids,gas to liquids CCS level 1,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,gas to liquids,gas to liquids CCS level 1,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,gas to liquids,gas to liquids CCS level 1,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,gas to liquids,gas to liquids CCS level 1,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,gas to liquids,gas to liquids CCS level 1,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,gas to liquids,gas to liquids CCS level 1,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,gas to liquids,gas to liquids CCS level 1,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,gas to liquids,gas to liquids CCS level 1,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,gas to liquids,gas to liquids CCS level 1,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,gas to liquids,gas to liquids CCS level 1,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,gas to liquids,gas to liquids CCS level 2,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,gas to liquids,gas to liquids CCS level 2,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,gas to liquids,gas to liquids CCS level 2,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,gas to liquids,gas to liquids CCS level 2,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,gas to liquids,gas to liquids CCS level 2,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,gas to liquids,gas to liquids CCS level 2,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,gas to liquids,gas to liquids CCS level 2,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,gas to liquids,gas to liquids CCS level 2,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,gas to liquids,gas to liquids CCS level 2,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,gas to liquids,gas to liquids CCS level 2,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,oil refining,oil refining,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,oil refining,oil refining,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,oil refining,oil refining,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,oil refining,oil refining,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,oil refining,oil refining,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,oil refining,oil refining,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,oil refining,oil refining,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,oil refining,oil refining,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,oil refining,oil refining,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refining,oil refining,oil refining,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional natural gas,domestic natural gas,domestic natural gas,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional natural gas,domestic natural gas,domestic natural gas,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional natural gas,domestic natural gas,domestic natural gas,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional natural gas,domestic natural gas,domestic natural gas,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional natural gas,domestic natural gas,domestic natural gas,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional natural gas,domestic natural gas,domestic natural gas,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional natural gas,domestic natural gas,domestic natural gas,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional natural gas,domestic natural gas,domestic natural gas,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional natural gas,domestic natural gas,domestic natural gas,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional natural gas,domestic natural gas,domestic natural gas,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional natural gas,imported natural gas,imported LNG,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional natural gas,imported natural gas,imported LNG,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional natural gas,imported natural gas,imported LNG,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional natural gas,imported natural gas,imported LNG,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional natural gas,imported natural gas,imported LNG,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional natural gas,imported natural gas,imported LNG,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional natural gas,imported natural gas,imported LNG,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional natural gas,imported natural gas,imported LNG,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional natural gas,imported natural gas,imported LNG,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional natural gas,imported natural gas,imported LNG,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional natural gas,imported natural gas,imported pipeline gas,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional natural gas,imported natural gas,imported pipeline gas,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional natural gas,imported natural gas,imported pipeline gas,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional natural gas,imported natural gas,imported pipeline gas,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional natural gas,imported natural gas,imported pipeline gas,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional natural gas,imported natural gas,imported pipeline gas,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional natural gas,imported natural gas,imported pipeline gas,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional natural gas,imported natural gas,imported pipeline gas,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional natural gas,imported natural gas,imported pipeline gas,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional natural gas,imported natural gas,imported pipeline gas,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional oil,domestic crude oil,domestic crude oil,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional oil,domestic crude oil,domestic crude oil,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional oil,domestic crude oil,domestic crude oil,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional oil,domestic crude oil,domestic crude oil,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional oil,domestic crude oil,domestic crude oil,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional oil,domestic crude oil,domestic crude oil,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional oil,domestic crude oil,domestic crude oil,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional oil,domestic crude oil,domestic crude oil,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional oil,domestic crude oil,domestic crude oil,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional oil,domestic crude oil,domestic crude oil,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional oil,imported crude oil,imported crude oil,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional oil,imported crude oil,imported crude oil,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional oil,imported crude oil,imported crude oil,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional oil,imported crude oil,imported crude oil,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional oil,imported crude oil,imported crude oil,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional oil,imported crude oil,imported crude oil,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional oil,imported crude oil,imported crude oil,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional oil,imported crude oil,imported crude oil,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional oil,imported crude oil,imported crude oil,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional oil,imported crude oil,imported crude oil,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional coal,domestic coal,domestic coal,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional coal,domestic coal,domestic coal,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional coal,domestic coal,domestic coal,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional coal,domestic coal,domestic coal,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional coal,domestic coal,domestic coal,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional coal,domestic coal,domestic coal,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional coal,domestic coal,domestic coal,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional coal,domestic coal,domestic coal,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional coal,domestic coal,domestic coal,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional coal,domestic coal,domestic coal,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional coal,imported coal,imported coal,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional coal,imported coal,imported coal,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional coal,imported coal,imported coal,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional coal,imported coal,imported coal,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional coal,imported coal,imported coal,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional coal,imported coal,imported coal,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional coal,imported coal,imported coal,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional coal,imported coal,imported coal,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional coal,imported coal,imported coal,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional coal,imported coal,imported coal,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional biomass,regional biomass,regional biomass,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional biomass,regional biomass,regional biomass,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional biomass,regional biomass,regional biomass,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional biomass,regional biomass,regional biomass,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional biomass,regional biomass,regional biomass,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional biomass,regional biomass,regional biomass,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional biomass,regional biomass,regional biomass,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional biomass,regional biomass,regional biomass,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional biomass,regional biomass,regional biomass,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional biomass,regional biomass,regional biomass,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional biomass,regional biomass,regional biomass,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional biomass,regional biomass,regional biomass,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional biomass,regional biomass,regional biomass,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional biomass,regional biomass,regional biomass,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional biomass,regional biomass,regional biomass,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional biomass,regional biomass,regional biomass,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional biomass,regional biomass,regional biomass,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional biomass,regional biomass,regional biomass,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional biomass,regional biomass,regional biomass,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional biomass,regional biomass,regional biomass,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional biomassOil,regional biomassOil,Soybean,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional biomassOil,regional biomassOil,Soybean,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional biomassOil,regional biomassOil,Soybean,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional biomassOil,regional biomassOil,Soybean,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional biomassOil,regional biomassOil,Soybean,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional biomassOil,regional biomassOil,Soybean,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional biomassOil,regional biomassOil,Soybean,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional biomassOil,regional biomassOil,Soybean,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional biomassOil,regional biomassOil,Soybean,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional biomassOil,regional biomassOil,Soybean,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional biomassOil,regional biomassOil,OilCrop,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional biomassOil,regional biomassOil,OilCrop,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional biomassOil,regional biomassOil,OilCrop,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional biomassOil,regional biomassOil,OilCrop,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional biomassOil,regional biomassOil,OilCrop,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional biomassOil,regional biomassOil,OilCrop,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional biomassOil,regional biomassOil,OilCrop,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional biomassOil,regional biomassOil,OilCrop,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional biomassOil,regional biomassOil,OilCrop,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional biomassOil,regional biomassOil,OilCrop,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional biomassOil,regional biomassOil,OilCrop,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional biomassOil,regional biomassOil,OilCrop,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional biomassOil,regional biomassOil,OilCrop,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional biomassOil,regional biomassOil,OilCrop,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional biomassOil,regional biomassOil,OilCrop,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional biomassOil,regional biomassOil,OilCrop,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional biomassOil,regional biomassOil,OilCrop,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional biomassOil,regional biomassOil,OilCrop,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional biomassOil,regional biomassOil,OilCrop,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional biomassOil,regional biomassOil,OilCrop,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional biomassOil,regional biomassOil,PalmFruit,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional biomassOil,regional biomassOil,PalmFruit,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional biomassOil,regional biomassOil,PalmFruit,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional biomassOil,regional biomassOil,PalmFruit,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional biomassOil,regional biomassOil,PalmFruit,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional biomassOil,regional biomassOil,PalmFruit,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional biomassOil,regional biomassOil,PalmFruit,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional biomassOil,regional biomassOil,PalmFruit,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional biomassOil,regional biomassOil,PalmFruit,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional biomassOil,regional biomassOil,PalmFruit,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional corn for ethanol,regional corn for ethanol,regional corn for ethanol,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional corn for ethanol,regional corn for ethanol,regional corn for ethanol,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional corn for ethanol,regional corn for ethanol,regional corn for ethanol,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional corn for ethanol,regional corn for ethanol,regional corn for ethanol,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional corn for ethanol,regional corn for ethanol,regional corn for ethanol,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional corn for ethanol,regional corn for ethanol,regional corn for ethanol,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional corn for ethanol,regional corn for ethanol,regional corn for ethanol,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional corn for ethanol,regional corn for ethanol,regional corn for ethanol,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional corn for ethanol,regional corn for ethanol,regional corn for ethanol,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional corn for ethanol,regional corn for ethanol,regional corn for ethanol,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional corn for ethanol,regional corn for ethanol,regional corn for ethanol,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional corn for ethanol,regional corn for ethanol,regional corn for ethanol,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional corn for ethanol,regional corn for ethanol,regional corn for ethanol,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional corn for ethanol,regional corn for ethanol,regional corn for ethanol,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional corn for ethanol,regional corn for ethanol,regional corn for ethanol,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional corn for ethanol,regional corn for ethanol,regional corn for ethanol,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional corn for ethanol,regional corn for ethanol,regional corn for ethanol,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional corn for ethanol,regional corn for ethanol,regional corn for ethanol,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional corn for ethanol,regional corn for ethanol,regional corn for ethanol,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional corn for ethanol,regional corn for ethanol,regional corn for ethanol,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional sugar for ethanol,regional sugar for ethanol,regional sugar for ethanol,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional sugar for ethanol,regional sugar for ethanol,regional sugar for ethanol,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional sugar for ethanol,regional sugar for ethanol,regional sugar for ethanol,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional sugar for ethanol,regional sugar for ethanol,regional sugar for ethanol,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional sugar for ethanol,regional sugar for ethanol,regional sugar for ethanol,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional sugar for ethanol,regional sugar for ethanol,regional sugar for ethanol,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional sugar for ethanol,regional sugar for ethanol,regional sugar for ethanol,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional sugar for ethanol,regional sugar for ethanol,regional sugar for ethanol,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional sugar for ethanol,regional sugar for ethanol,regional sugar for ethanol,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,regional sugar for ethanol,regional sugar for ethanol,regional sugar for ethanol,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,unconventional oil production,unconventional oil production,unconventional oil production,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,unconventional oil production,unconventional oil production,unconventional oil production,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,unconventional oil production,unconventional oil production,unconventional oil production,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,unconventional oil production,unconventional oil production,unconventional oil production,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,unconventional oil production,unconventional oil production,unconventional oil production,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,unconventional oil production,unconventional oil production,unconventional oil production,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,unconventional oil production,unconventional oil production,unconventional oil production,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,unconventional oil production,unconventional oil production,unconventional oil production,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,unconventional oil production,unconventional oil production,unconventional oil production,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,unconventional oil production,unconventional oil production,unconventional oil production,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,unconventional oil production,unconventional oil production,unconventional oil production,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,unconventional oil production,unconventional oil production,unconventional oil production,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,unconventional oil production,unconventional oil production,unconventional oil production,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,unconventional oil production,unconventional oil production,unconventional oil production,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,unconventional oil production,unconventional oil production,unconventional oil production,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,unconventional oil production,unconventional oil production,unconventional oil production,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,unconventional oil production,unconventional oil production,unconventional oil production,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,unconventional oil production,unconventional oil production,unconventional oil production,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,unconventional oil production,unconventional oil production,unconventional oil production,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,unconventional oil production,unconventional oil production,unconventional oil production,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,wholesale gas,wholesale gas,wholesale gas,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,wholesale gas,wholesale gas,wholesale gas,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,wholesale gas,wholesale gas,wholesale gas,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,wholesale gas,wholesale gas,wholesale gas,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,wholesale gas,wholesale gas,wholesale gas,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,wholesale gas,wholesale gas,wholesale gas,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,wholesale gas,wholesale gas,wholesale gas,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,wholesale gas,wholesale gas,wholesale gas,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,wholesale gas,wholesale gas,wholesale gas,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,wholesale gas,wholesale gas,wholesale gas,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refined liquids enduse,refined liquids enduse,refined liquids enduse,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refined liquids enduse,refined liquids enduse,refined liquids enduse,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refined liquids enduse,refined liquids enduse,refined liquids enduse,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refined liquids enduse,refined liquids enduse,refined liquids enduse,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refined liquids enduse,refined liquids enduse,refined liquids enduse,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refined liquids enduse,refined liquids enduse,refined liquids enduse,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refined liquids enduse,refined liquids enduse,refined liquids enduse,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refined liquids enduse,refined liquids enduse,refined liquids enduse,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refined liquids enduse,refined liquids enduse,refined liquids enduse,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refined liquids enduse,refined liquids enduse,refined liquids enduse,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refined liquids industrial,refined liquids industrial,refined liquids industrial,2010,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refined liquids industrial,refined liquids industrial,refined liquids industrial,2015,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refined liquids industrial,refined liquids industrial,refined liquids industrial,2020,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refined liquids industrial,refined liquids industrial,refined liquids industrial,2025,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refined liquids industrial,refined liquids industrial,refined liquids industrial,2030,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refined liquids industrial,refined liquids industrial,refined liquids industrial,2035,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refined liquids industrial,refined liquids industrial,refined liquids industrial,2040,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refined liquids industrial,refined liquids industrial,refined liquids industrial,2045,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refined liquids industrial,refined liquids industrial,refined liquids industrial,2050,Cap_Industry-All_CO2_MN_Mkt1753295989927
+MN,refined liquids industrial,refined liquids industrial,refined liquids industrial,2055,Cap_Industry-All_CO2_MN_Mkt1753295989927
