@@ -1,0 +1,560 @@
+########## Scenario Component Metadata ##########
+#Scenario component type: Pollutant Tax/Cap
+#Measure: Emission Cap (Mt)
+#Pollutant: CO2 (MT C)
+#Sector: Trn-All
+#Policy name: Cap_Trn-All_CO2_MN1753296654423
+#Market name: Cap_Trn-All_CO2_MN_Mkt1753296654423
+#Regions: MN
+#Table data:2015 , 45
+#Table data:2025 , 31.5
+#Table data:2030 , 22.5
+#Table data:2035 , 15.75
+#Table data:2040 , 9
+#Table data:2045 , 4.5
+#################################################
+INPUT_TABLE
+Variable ID
+GLIMPSEEmissionCap
+
+region,pollutant,market,year,cap
+MN,Cap_Trn-All_CO2_MN_Mkt1753296654423,Cap_Trn-All_CO2_MN_Mkt1753296654423,2015,45
+MN,Cap_Trn-All_CO2_MN_Mkt1753296654423,Cap_Trn-All_CO2_MN_Mkt1753296654423,2025,31.5
+MN,Cap_Trn-All_CO2_MN_Mkt1753296654423,Cap_Trn-All_CO2_MN_Mkt1753296654423,2030,22.5
+MN,Cap_Trn-All_CO2_MN_Mkt1753296654423,Cap_Trn-All_CO2_MN_Mkt1753296654423,2035,15.75
+MN,Cap_Trn-All_CO2_MN_Mkt1753296654423,Cap_Trn-All_CO2_MN_Mkt1753296654423,2040,9
+MN,Cap_Trn-All_CO2_MN_Mkt1753296654423,Cap_Trn-All_CO2_MN_Mkt1753296654423,2045,4.5
+
+INPUT_TABLE
+Variable ID
+GLIMPSEAddCO2Subspecies
+
+region,supplysector,subsector,technology,year,pollutant
+MN,trn_freight_road,Heavy truck,BEV,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Heavy truck,BEV,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Heavy truck,BEV,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Heavy truck,BEV,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Heavy truck,BEV,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Heavy truck,BEV,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Heavy truck,BEV,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Heavy truck,BEV,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Heavy truck,FCEV,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Heavy truck,FCEV,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Heavy truck,FCEV,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Heavy truck,FCEV,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Heavy truck,FCEV,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Heavy truck,FCEV,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Heavy truck,FCEV,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Heavy truck,FCEV,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Heavy truck,Hybrid Liquids,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Heavy truck,Hybrid Liquids,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Heavy truck,Hybrid Liquids,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Heavy truck,Hybrid Liquids,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Heavy truck,Hybrid Liquids,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Heavy truck,Hybrid Liquids,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Heavy truck,Hybrid Liquids,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Heavy truck,Hybrid Liquids,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Heavy truck,Liquids,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Heavy truck,Liquids,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Heavy truck,Liquids,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Heavy truck,Liquids,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Heavy truck,Liquids,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Heavy truck,Liquids,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Heavy truck,Liquids,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Heavy truck,Liquids,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Heavy truck,NG,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Heavy truck,NG,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Heavy truck,NG,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Heavy truck,NG,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Heavy truck,NG,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Heavy truck,NG,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Heavy truck,NG,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Heavy truck,NG,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Medium truck,BEV,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Medium truck,BEV,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Medium truck,BEV,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Medium truck,BEV,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Medium truck,BEV,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Medium truck,BEV,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Medium truck,BEV,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Medium truck,BEV,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Medium truck,FCEV,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Medium truck,FCEV,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Medium truck,FCEV,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Medium truck,FCEV,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Medium truck,FCEV,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Medium truck,FCEV,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Medium truck,FCEV,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Medium truck,FCEV,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Medium truck,Hybrid Liquids,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Medium truck,Hybrid Liquids,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Medium truck,Hybrid Liquids,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Medium truck,Hybrid Liquids,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Medium truck,Hybrid Liquids,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Medium truck,Hybrid Liquids,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Medium truck,Hybrid Liquids,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Medium truck,Hybrid Liquids,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Medium truck,Liquids,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Medium truck,Liquids,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Medium truck,Liquids,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Medium truck,Liquids,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Medium truck,Liquids,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Medium truck,Liquids,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Medium truck,Liquids,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Medium truck,Liquids,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Medium truck,NG,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Medium truck,NG,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Medium truck,NG,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Medium truck,NG,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Medium truck,NG,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Medium truck,NG,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Medium truck,NG,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Medium truck,NG,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Light truck,BEV,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Light truck,BEV,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Light truck,BEV,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Light truck,BEV,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Light truck,BEV,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Light truck,BEV,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Light truck,BEV,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Light truck,BEV,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Light truck,FCEV,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Light truck,FCEV,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Light truck,FCEV,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Light truck,FCEV,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Light truck,FCEV,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Light truck,FCEV,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Light truck,FCEV,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Light truck,FCEV,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Light truck,Hybrid Liquids,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Light truck,Hybrid Liquids,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Light truck,Hybrid Liquids,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Light truck,Hybrid Liquids,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Light truck,Hybrid Liquids,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Light truck,Hybrid Liquids,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Light truck,Hybrid Liquids,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Light truck,Hybrid Liquids,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Light truck,Liquids,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Light truck,Liquids,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Light truck,Liquids,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Light truck,Liquids,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Light truck,Liquids,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Light truck,Liquids,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Light truck,Liquids,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Light truck,Liquids,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Light truck,NG,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Light truck,NG,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Light truck,NG,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Light truck,NG,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Light truck,NG,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Light truck,NG,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Light truck,NG,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight_road,Light truck,NG,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road,Bus,BEV,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road,Bus,BEV,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road,Bus,BEV,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road,Bus,BEV,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road,Bus,BEV,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road,Bus,BEV,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road,Bus,BEV,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road,Bus,BEV,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road,Bus,FCEV,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road,Bus,FCEV,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road,Bus,FCEV,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road,Bus,FCEV,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road,Bus,FCEV,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road,Bus,FCEV,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road,Bus,FCEV,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road,Bus,FCEV,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road,Bus,Hybrid Liquids,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road,Bus,Hybrid Liquids,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road,Bus,Hybrid Liquids,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road,Bus,Hybrid Liquids,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road,Bus,Hybrid Liquids,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road,Bus,Hybrid Liquids,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road,Bus,Hybrid Liquids,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road,Bus,Hybrid Liquids,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road,Bus,Liquids,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road,Bus,Liquids,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road,Bus,Liquids,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road,Bus,Liquids,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road,Bus,Liquids,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road,Bus,Liquids,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road,Bus,Liquids,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road,Bus,Liquids,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road,Bus,NG,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road,Bus,NG,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road,Bus,NG,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road,Bus,NG,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road,Bus,NG,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road,Bus,NG,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road,Bus,NG,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road,Bus,NG,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV,2W and 3W,BEV,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV,2W and 3W,BEV,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV,2W and 3W,BEV,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV,2W and 3W,BEV,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV,2W and 3W,BEV,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV,2W and 3W,BEV,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV,2W and 3W,BEV,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV,2W and 3W,BEV,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV,2W and 3W,LA-BEV,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV,2W and 3W,LA-BEV,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV,2W and 3W,LA-BEV,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV,2W and 3W,LA-BEV,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV,2W and 3W,LA-BEV,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV,2W and 3W,LA-BEV,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV,2W and 3W,LA-BEV,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV,2W and 3W,LA-BEV,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV,2W and 3W,Liquids,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV,2W and 3W,Liquids,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV,2W and 3W,Liquids,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV,2W and 3W,Liquids,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV,2W and 3W,Liquids,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV,2W and 3W,Liquids,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV,2W and 3W,Liquids,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV,2W and 3W,Liquids,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV,2W and 3W,NG,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV,2W and 3W,NG,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV,2W and 3W,NG,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV,2W and 3W,NG,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV,2W and 3W,NG,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV,2W and 3W,NG,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV,2W and 3W,NG,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV,2W and 3W,NG,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Car,BEV,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Car,BEV,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Car,BEV,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Car,BEV,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Car,BEV,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Car,BEV,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Car,BEV,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Car,BEV,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Car,FCEV,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Car,FCEV,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Car,FCEV,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Car,FCEV,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Car,FCEV,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Car,FCEV,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Car,FCEV,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Car,FCEV,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Car,Hybrid Liquids,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Car,Hybrid Liquids,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Car,Hybrid Liquids,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Car,Hybrid Liquids,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Car,Hybrid Liquids,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Car,Hybrid Liquids,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Car,Hybrid Liquids,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Car,Hybrid Liquids,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Car,Liquids,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Car,Liquids,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Car,Liquids,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Car,Liquids,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Car,Liquids,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Car,Liquids,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Car,Liquids,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Car,Liquids,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Car,NG,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Car,NG,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Car,NG,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Car,NG,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Car,NG,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Car,NG,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Car,NG,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Car,NG,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Large Car and Truck,BEV,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Large Car and Truck,BEV,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Large Car and Truck,BEV,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Large Car and Truck,BEV,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Large Car and Truck,BEV,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Large Car and Truck,BEV,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Large Car and Truck,BEV,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Large Car and Truck,BEV,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Large Car and Truck,NG,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Large Car and Truck,NG,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Large Car and Truck,NG,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Large Car and Truck,NG,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Large Car and Truck,NG,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Large Car and Truck,NG,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Large Car and Truck,NG,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Large Car and Truck,NG,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Mini Car,BEV,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Mini Car,BEV,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Mini Car,BEV,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Mini Car,BEV,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Mini Car,BEV,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Mini Car,BEV,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Mini Car,BEV,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Mini Car,BEV,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Mini Car,FCEV,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Mini Car,FCEV,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Mini Car,FCEV,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Mini Car,FCEV,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Mini Car,FCEV,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Mini Car,FCEV,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Mini Car,FCEV,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Mini Car,FCEV,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Mini Car,Hybrid Liquids,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Mini Car,Hybrid Liquids,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Mini Car,Hybrid Liquids,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Mini Car,Hybrid Liquids,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Mini Car,Hybrid Liquids,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Mini Car,Hybrid Liquids,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Mini Car,Hybrid Liquids,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Mini Car,Hybrid Liquids,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Mini Car,Liquids,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Mini Car,Liquids,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Mini Car,Liquids,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Mini Car,Liquids,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Mini Car,Liquids,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Mini Car,Liquids,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Mini Car,Liquids,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Mini Car,Liquids,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Mini Car,NG,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Mini Car,NG,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Mini Car,NG,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Mini Car,NG,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Mini Car,NG,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Mini Car,NG,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Mini Car,NG,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass_road_LDV_4W,Mini Car,NG,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_aviation_intl,International Aviation,Liquids,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_aviation_intl,International Aviation,Liquids,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_aviation_intl,International Aviation,Liquids,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_aviation_intl,International Aviation,Liquids,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_aviation_intl,International Aviation,Liquids,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_aviation_intl,International Aviation,Liquids,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_aviation_intl,International Aviation,Liquids,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_aviation_intl,International Aviation,Liquids,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_aviation_intl,International Aviation,BEV,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_aviation_intl,International Aviation,BEV,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_aviation_intl,International Aviation,BEV,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_aviation_intl,International Aviation,BEV,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_aviation_intl,International Aviation,BEV,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_aviation_intl,International Aviation,BEV,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_aviation_intl,International Aviation,BEV,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_aviation_intl,International Aviation,BEV,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_aviation_intl,International Aviation,Hydrogen,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_aviation_intl,International Aviation,Hydrogen,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_aviation_intl,International Aviation,Hydrogen,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_aviation_intl,International Aviation,Hydrogen,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_aviation_intl,International Aviation,Hydrogen,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_aviation_intl,International Aviation,Hydrogen,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_aviation_intl,International Aviation,Hydrogen,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_aviation_intl,International Aviation,Hydrogen,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Domestic Ship,BEV,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Domestic Ship,BEV,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Domestic Ship,BEV,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Domestic Ship,BEV,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Domestic Ship,BEV,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Domestic Ship,BEV,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Domestic Ship,BEV,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Domestic Ship,BEV,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Domestic Ship,FCEV,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Domestic Ship,FCEV,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Domestic Ship,FCEV,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Domestic Ship,FCEV,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Domestic Ship,FCEV,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Domestic Ship,FCEV,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Domestic Ship,FCEV,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Domestic Ship,FCEV,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Domestic Ship,Hybrid Liquids,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Domestic Ship,Hybrid Liquids,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Domestic Ship,Hybrid Liquids,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Domestic Ship,Hybrid Liquids,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Domestic Ship,Hybrid Liquids,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Domestic Ship,Hybrid Liquids,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Domestic Ship,Hybrid Liquids,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Domestic Ship,Hybrid Liquids,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Domestic Ship,Liquids,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Domestic Ship,Liquids,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Domestic Ship,Liquids,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Domestic Ship,Liquids,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Domestic Ship,Liquids,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Domestic Ship,Liquids,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Domestic Ship,Liquids,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Domestic Ship,Liquids,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Freight Rail,BEV,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Freight Rail,BEV,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Freight Rail,BEV,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Freight Rail,BEV,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Freight Rail,BEV,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Freight Rail,BEV,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Freight Rail,BEV,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Freight Rail,BEV,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Freight Rail,coal,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Freight Rail,coal,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Freight Rail,coal,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Freight Rail,coal,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Freight Rail,coal,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Freight Rail,coal,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Freight Rail,coal,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Freight Rail,coal,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Freight Rail,Electric,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Freight Rail,Electric,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Freight Rail,Electric,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Freight Rail,Electric,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Freight Rail,Electric,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Freight Rail,Electric,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Freight Rail,Electric,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Freight Rail,Electric,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Freight Rail,FCEV,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Freight Rail,FCEV,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Freight Rail,FCEV,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Freight Rail,FCEV,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Freight Rail,FCEV,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Freight Rail,FCEV,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Freight Rail,FCEV,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Freight Rail,FCEV,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Freight Rail,Hybrid Liquids,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Freight Rail,Hybrid Liquids,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Freight Rail,Hybrid Liquids,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Freight Rail,Hybrid Liquids,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Freight Rail,Hybrid Liquids,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Freight Rail,Hybrid Liquids,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Freight Rail,Hybrid Liquids,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Freight Rail,Hybrid Liquids,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Freight Rail,Liquids,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Freight Rail,Liquids,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Freight Rail,Liquids,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Freight Rail,Liquids,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Freight Rail,Liquids,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Freight Rail,Liquids,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Freight Rail,Liquids,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_freight,Freight Rail,Liquids,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,Cycle,Cycle,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,Cycle,Cycle,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,Cycle,Cycle,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,Cycle,Cycle,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,Cycle,Cycle,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,Cycle,Cycle,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,Cycle,Cycle,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,Cycle,Cycle,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,Domestic Aviation,Liquids,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,Domestic Aviation,Liquids,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,Domestic Aviation,Liquids,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,Domestic Aviation,Liquids,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,Domestic Aviation,Liquids,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,Domestic Aviation,Liquids,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,Domestic Aviation,Liquids,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,Domestic Aviation,Liquids,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,Domestic Aviation,BEV,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,Domestic Aviation,BEV,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,Domestic Aviation,BEV,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,Domestic Aviation,BEV,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,Domestic Aviation,BEV,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,Domestic Aviation,BEV,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,Domestic Aviation,BEV,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,Domestic Aviation,BEV,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,Domestic Aviation,Hydrogen,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,Domestic Aviation,Hydrogen,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,Domestic Aviation,Hydrogen,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,Domestic Aviation,Hydrogen,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,Domestic Aviation,Hydrogen,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,Domestic Aviation,Hydrogen,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,Domestic Aviation,Hydrogen,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,Domestic Aviation,Hydrogen,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,HSR,Electric,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,HSR,Electric,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,HSR,Electric,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,HSR,Electric,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,HSR,Electric,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,HSR,Electric,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,HSR,Electric,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,HSR,Electric,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,Passenger Rail,Electric,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,Passenger Rail,Electric,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,Passenger Rail,Electric,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,Passenger Rail,Electric,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,Passenger Rail,Electric,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,Passenger Rail,Electric,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,Passenger Rail,Electric,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,Passenger Rail,Electric,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,Passenger Rail,Liquids,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,Passenger Rail,Liquids,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,Passenger Rail,Liquids,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,Passenger Rail,Liquids,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,Passenger Rail,Liquids,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,Passenger Rail,Liquids,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,Passenger Rail,Liquids,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,Passenger Rail,Liquids,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,road,road,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,road,road,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,road,road,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,road,road,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,road,road,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,road,road,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,road,road,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,road,road,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,Walk,Walk,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,Walk,Walk,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,Walk,Walk,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,Walk,Walk,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,Walk,Walk,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,Walk,Walk,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,Walk,Walk,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_pass,Walk,Walk,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_shipping_intl,International Ship,Liquids,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_shipping_intl,International Ship,Liquids,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_shipping_intl,International Ship,Liquids,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_shipping_intl,International Ship,Liquids,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_shipping_intl,International Ship,Liquids,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_shipping_intl,International Ship,Liquids,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_shipping_intl,International Ship,Liquids,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_shipping_intl,International Ship,Liquids,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_shipping_intl,International Ship,BEV,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_shipping_intl,International Ship,BEV,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_shipping_intl,International Ship,BEV,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_shipping_intl,International Ship,BEV,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_shipping_intl,International Ship,BEV,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_shipping_intl,International Ship,BEV,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_shipping_intl,International Ship,BEV,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_shipping_intl,International Ship,BEV,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_shipping_intl,International Ship,FCEV,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_shipping_intl,International Ship,FCEV,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_shipping_intl,International Ship,FCEV,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_shipping_intl,International Ship,FCEV,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_shipping_intl,International Ship,FCEV,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_shipping_intl,International Ship,FCEV,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_shipping_intl,International Ship,FCEV,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_shipping_intl,International Ship,FCEV,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_shipping_intl,International Ship,Hybrid Liquids,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_shipping_intl,International Ship,Hybrid Liquids,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_shipping_intl,International Ship,Hybrid Liquids,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_shipping_intl,International Ship,Hybrid Liquids,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_shipping_intl,International Ship,Hybrid Liquids,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_shipping_intl,International Ship,Hybrid Liquids,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_shipping_intl,International Ship,Hybrid Liquids,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_shipping_intl,International Ship,Hybrid Liquids,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_shipping_intl,International Ship,Liquids,2010,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_shipping_intl,International Ship,Liquids,2015,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_shipping_intl,International Ship,Liquids,2020,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_shipping_intl,International Ship,Liquids,2025,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_shipping_intl,International Ship,Liquids,2030,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_shipping_intl,International Ship,Liquids,2035,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_shipping_intl,International Ship,Liquids,2040,Cap_Trn-All_CO2_MN_Mkt1753296654423
+MN,trn_shipping_intl,International Ship,Liquids,2045,Cap_Trn-All_CO2_MN_Mkt1753296654423
