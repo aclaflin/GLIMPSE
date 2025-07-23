@@ -29,10 +29,10 @@ configurationTemplate = $gCamGuiDir$/templates/configuration_GCAM-USA-7p0_templa
 
 
 #-----Editors that are automatically invoked when you double click on a txt or xml file
-textEditor = C:/Windows/notepad.exe
-xmlEditor = C:/Windows/notepad.exe
-#textEditor = C:/Program Files/Notepad++/notepad++.exe
-#xmlEditor = C:/Program Files/Notepad++/notepad++.exe
+#textEditor = C:/Windows/notepad.exe
+#xmlEditor = C:/Windows/notepad.exe
+textEditor = C:/Program Files/Notepad++/notepad++.exe
+xmlEditor = C:/Program Files/Notepad++/notepad++.exe
 
 #-----GCAM executable name and location-----
 #gCamExecutable = gcam.exe
@@ -85,7 +85,7 @@ maxDatabaseSizeGB = 40
 #These values are inserted into the scenario-specific configuration file when it created. Comment with # to use default
 stop-period = 11
 solver = $gCamHomeDir$/input/solution/cal_broyden_config.xml
-debugRegion = CT
+debugRegion = MN
 debugCreate = 1
 debugRename = 0
 
@@ -93,6 +93,6 @@ gCamOutputToSave = $gCamHomeDir$/exe/logs/main_log.txt;$gCamHomeDir$/exe/debug.x
 #gCamOutputToSave = $gCamHomeDir$/exe/logs/main_log.txt;$gCamHomeDir$/exe/logs/calibration_log.txt;$gCamHomeDir$/exe/logs/solver_log.csv;$gCamHomeDir$/exe/debug.xml
 
 #----GUI Appearance-----
-preferredFontSize = 11
+preferredFontSize = 12
 useIcons = true
 showSplash = false
